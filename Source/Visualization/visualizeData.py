@@ -6,7 +6,7 @@ from numpy import double
   
 x = []
 y = []
-with open('C:\\Users\\Minh Tri Jr\\midtermAMsS\\Data\\TAVG_Dataset_78-018.csv','r') as csvfile:
+with open('Data\\TAVG_Dataset_78-018.csv','r') as csvfile:
     lines = csv.reader(csvfile, delimiter=',')
     for row in lines:
         x.append(row[0])
